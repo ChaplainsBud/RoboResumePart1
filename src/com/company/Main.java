@@ -75,6 +75,7 @@ public class Main {
 
        // System.out.println(app.getName());
 
+        System.out.println("=============================================================");
         System.out.println(app.getName());
         System.out.println(app.getEmail());
         System.out.println("");
