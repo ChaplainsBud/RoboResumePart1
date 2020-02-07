@@ -21,121 +21,122 @@ public class Main {
 
             Scanner sc = new Scanner(System.in);
 
+                System.out.println("Please fill in every field. You will be prevented from finishing until you do.");
                 System.out.println("Enter a name: ");
                 String name = sc.nextLine();
-                if(name.equals("")){
+                while(name.equals("")){
                     System.out.println("Please enter a real name");
                     name = sc.nextLine();
                 }
                 data.add(name);
                 System.out.println("Enter an email address: ");
                 String email = sc.nextLine();
-                if(email.equals("")){
+                while(email.equals("")){
                     System.out.println("Please enter a valid email address: ");
                     email = sc.nextLine();
                 }
                 data.add(email);
                 System.out.println("Enter highest diploma: ");
                 String diploma = sc.nextLine();
-                if(diploma.equals("")){
+                while(diploma.equals("")){
                     System.out.println("Please enter an actual diploma: ");
                     diploma = sc.nextLine();
                 }
                 data.add(diploma);
                 System.out.println("Enter major ");
                 String major = sc.nextLine();
-                if(major.equals("")) {
+                while(major.equals("")) {
                     System.out.println("Please enter an actual major: ");
                     major = sc.nextLine();
                 }
                 data.add(major);
                 System.out.println("Enter university name: ");
                 String uni = sc.nextLine();
-                if(uni.equals("")){
+                while(uni.equals("")){
                     System.out.println("Please enter an actual school name: ");
                     uni = sc.nextLine();
                 }
                 data.add(uni);
                 System.out.println("Enter graduation year: ");
                 String yr = sc.nextLine();
-                if(yr.equals("")){
+                while(yr.equals("")){
                     System.out.println("Please enter an actual year: ");
                     yr = sc.nextLine();
                 }
                 data.add(yr);
                 System.out.println("Enter company: ");
                 String co = sc.nextLine();
-                if(co.equals("")){
+                while(co.equals("")){
                     System.out.println("Please enter an actual company: ");
                     co = sc.nextLine();
                 }
                 data.add(co);
                 System.out.println("Enter job title: ");
                 String ti = sc.nextLine();
-                if(ti.equals("")){
+                while(ti.equals("")){
                     System.out.println("Please enter an actual job title: ");
                     ti = sc.nextLine();
                 }
                 data.add(ti);
                 System.out.println("Enter start date: ");
                 String start = sc.nextLine();
-                if(start.equals("")){
+                while(start.equals("")){
                     System.out.println("Please enter an accurate start date: ");
                     start = sc.nextLine();
                 }
                 data.add(start);
                 System.out.println("Enter end date: ");
                 String end = sc.nextLine();
-                if(end.equals("")){
+                while(end.equals("")){
                     System.out.println("Please enter an accurate end date: ");
                     end = sc.nextLine();
                 }
                 data.add(end);
                 System.out.println("Enter job description: ");
                 String desc = sc.nextLine();
-                if(desc.equals("")){
+                while(desc.equals("")){
                     System.out.println("Please enter a real job description: ");
                     desc = sc.nextLine();
                 }
                 data.add(desc);
                 System.out.println("Enter skill 1: ");
                 String sk1 = sc.nextLine();
-                if(sk1.equals("")){
+                while(sk1.equals("")){
                     System.out.println("Please enter a real skill: ");
                     sk1 = sc.nextLine();
                 }
                 data.add(sk1);
                 System.out.println("Enter rating/ranking: ");
                 String rk1 = sc.nextLine();
-                if(rk1.equals("")){
+                while(rk1.equals("")){
                     System.out.println("Please enter a real rank: ");
                     rk1 = sc.nextLine();
                 }
                 data.add(rk1);
                 System.out.println("Enter skill 2: ");
                 String sk2 = sc.nextLine();
-                if(sk2.equals("")){
+                while(sk2.equals("")){
                 System.out.println("Please enter a real skill: ");
                 sk2 = sc.nextLine();
                 }
                 data.add(sk2);
                 System.out.println("Enter rating/ranking: ");
                 String rk2 = sc.nextLine();
-                if(rk2.equals("")){
+                while(rk2.equals("")){
                     System.out.println("Please enter a real rank: ");
                 rk2 = sc.nextLine();
                 }
                 data.add(rk2);
                 System.out.println("Enter skill 3: ");
                 String sk3 = sc.nextLine();
-                if(sk3.equals("")){
+                while(sk3.equals("")){
                 System.out.println("Please enter a real skill: ");
                 sk3 = sc.nextLine();
                 }
                 data.add(sk3);
                 System.out.println("Enter rating/ranking: ");
                 String rk3 = sc.nextLine();
-                if(rk3.equals("")){
+                while(rk3.equals("")){
                 System.out.println("Please enter a real rank: ");
                 rk3 = sc.nextLine();
                 }
