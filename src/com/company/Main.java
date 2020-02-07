@@ -86,7 +86,7 @@ public class Main {
         System.out.println("");
         System.out.println("Experience");
         System.out.println(app.getCo());
-        System.out.println(app.getTi() + " , from " + app.getStart() + " to " app.getEnd());
+        System.out.println(app.getTi() + " , from " + app.getStart() + " to " + app.getEnd());
         System.out.println("Duty 1 " + app.getDesc());
         System.out.println("");
         System.out.println("");
